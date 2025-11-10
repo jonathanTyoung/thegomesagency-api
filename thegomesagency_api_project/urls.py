@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
-from thegomesagency_apiapi.views import (
+from thegomesagency_api.views import (
     register_user,
     login_user,
     get_current_user,
